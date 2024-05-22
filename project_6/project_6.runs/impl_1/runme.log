@@ -1,0 +1,204 @@
+
+*** Running vivado
+    with args -log Top_Picorv32.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Top_Picorv32.tcl -notrace
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source Top_Picorv32.tcl -notrace
+Command: link_design -top Top_Picorv32 -part xc7z020clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-454] Reading design checkpoint 'd:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'mem'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1015.141 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc]
+WARNING: [Vivado 12-584] No ports matched 'led[0]'. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led[1]'. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ck_miso'. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:147]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:147]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ck_mosi'. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:148]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:148]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ck_sck'. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:149]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:149]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ck_ss'. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:150]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc:150]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.srcs/constrs_1/imports/pynq-z1_c/PYNQ-Z1_C.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1015.141 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+8 Infos, 8 Warnings, 8 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1015.141 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1015.141 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: ef0e412b
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1282.910 ; gain = 267.770
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+WARNING: [Opt 31-155] Driverless net mem/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/rsta is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: mem/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram_i_2
+WARNING: [Opt 31-155] Driverless net mem/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/rsta is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: mem/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/ram_rstreg_a_busy
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: cde344aa
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.199 . Memory (MB): peak = 1490.914 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 1 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 15bc018dd
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.218 . Memory (MB): peak = 1490.914 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 10 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 153dc050f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.302 . Memory (MB): peak = 1490.914 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 8 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 153dc050f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.304 . Memory (MB): peak = 1490.914 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 153dc050f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.306 . Memory (MB): peak = 1490.914 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 153dc050f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.318 . Memory (MB): peak = 1490.914 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               1  |                                              0  |
+|  Constant propagation         |               0  |              10  |                                              0  |
+|  Sweep                        |               0  |               8  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1490.914 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: b4daf667
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.321 . Memory (MB): peak = 1490.914 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: b4daf667
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.099 . Memory (MB): peak = 1500.715 ; gain = 9.801
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: b4daf667
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1500.715 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1500.715 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: b4daf667
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1500.715 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+25 Infos, 10 Warnings, 8 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1500.715 ; gain = 485.574
+INFO: [Timing 38-480] Writing timing data to binary archive.
+INFO: [Common 17-1381] The checkpoint 'D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.runs/impl_1/Top_Picorv32_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file Top_Picorv32_drc_opted.rpt -pb Top_Picorv32_drc_opted.pb -rpx Top_Picorv32_drc_opted.rpx
+Command: report_drc -file Top_Picorv32_drc_opted.rpt -pb Top_Picorv32_drc_opted.pb -rpx Top_Picorv32_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Pikachu08181998/Documents/Air_pressure_sensor/project_6/project_6.runs/impl_1/Top_Picorv32_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1526.422 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 00000000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 1526.422 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 00000000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.201 . Memory (MB): peak = 1526.422 ; gain = 0.000
+ERROR: [Place 30-494] The design is empty
+Resolution: Check if opt_design has removed all the leaf cells of your design.  Check whether you have instantiated and connected all of the top level ports.
+Ending Placer Task | Checksum: 00000000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.202 . Memory (MB): peak = 1526.422 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+41 Infos, 10 Warnings, 8 Critical Warnings and 2 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 27 13:33:57 2021...

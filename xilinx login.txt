@@ -1,0 +1,30 @@
+kcubivnspwnpdzocly@sdvft.com
+CSCXSEMc2zjr8B5!
+
+requires 80GB
+
+petalinux installer in Downloads
+trying to install petalinux prereqs :
+https://github.gatech.edu/llerner3/vip/wiki/General-Design-Setup-Instructions#installing-petalinux
+this failed but suggested iproute2 instead:
+sudo apt-get install iproute
+
+failed:
+sudo apt-get install setup 32but libs
+sudo apt-get install support in ubuntu
+sudo apt-get install lib32ncurses5
+sudo apt-get install lib32bz2-1.0
+sudo apt-get install ia32gcc1
+
+this should have a sudo prefix:
+mkdir /opt/pkg
+===
+sudo /tools/Xilinx/Vivado/2020.2/data/xicom/cable_drivers/lin64/install_script/install_drivers/install_drivers
+
+nano ~/.profile
+export PATH=/opt/Xilinx/Vivado/2020.2/bin:$PATH
+
+===
+in windows, put pynq-z1 folder here:
+C:\Xilinx\Vivado\2018.3\data\boards\board_files
+===

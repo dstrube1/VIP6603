@@ -1,0 +1,59 @@
+ALU: Arithmetic Logic Unit
+ARM: Advanced RISC Machines Ltd
+ASIC: application-specific integrated circuit 
+BEQ: Branch if equal
+BNE: Branch if not equal
+CCA: (ARM) Confidential Compute Architecture
+CPI: Cycles per instruction
+DRAM: dynamic random access memory
+DSP: Digital Signal Processor?
+EX: Execution(, memory address computation, or branch completion)
+FinFET: a nonplanar mutigate field-effect transistor (FET) with a thin silicon “fin” that forms the conducting channel of the transistor
+FPGA: Field-programmable gate array
+HDL: hardware description language
+ID: Instruction decode (and register fetch)
+IF: Instruction fetch
+IPP: Instructions per program
+ISA: Instruction Set Architecture
+J: Jump to address
+LHS: left-hand side; f of assign f = (c8 | c4);
+LSB: least significant bit; d/1 in abcd / 0001
+MAFD: 
+	M (integer Multiplication & division) 
+	A (Atomic instructions) 
+	F (single precision Floating point)
+	D (Double precision floating point)
+MEM: Memory access or R-type instruction completion
+MRd: Memory read
+MSB: most significant bit; a/1 in abcd / 1000
+MTE: Multiple Terminal Emulator?
+MWr: Memory write
+PCI: peripheral component interconnect Express
+RHS: right-hand side; c8 and c4 of assign f = (c8 | c4);
+RISC: Reduced instruction set computer
+RWr: Register write
+SoC: system on a chip
+SRAM: static random access memory
+SVE2: Scalable Vector Extensions 2
+TPC: Time per cycle
+WB: Write back step
+WBS: Work Breakdown Structure
+
+pipeline_notes, L04, leftoff slide 13
+
+FPGA left off pg 36
+
+https://youtu.be/AcO-rQZeCGs
+^9:55
+
+https://www.youtube.com/watch?v=0-7IHOXkiV8
+
+10-14:
+From midterm:
+HW: GPIO interupt signal?
+work with system team for the chart on where we fit and what we do
+diagram of what picorv32 is
+soc
+where does alu fit into the pipeline
+
+https://bluejeans.com/5031153777/
